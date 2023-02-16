@@ -1,0 +1,214 @@
+.main_body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /* margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px; */
+}
+.main_heading{
+    margin-top: 0px;
+    margin-bottom: 9%;
+}
+h1{
+    color: #443C68;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 5.4rem;
+    margin-bottom: 0;
+    /* line-height: 2; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'McLaren', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Sacramento', cursive; */
+    /* font-family: 'Sacramento', cursive; */
+}
+h2{
+    padding: 1rem;
+    color: #635985;
+    font-size: 2.5rem;
+    margin-top: 0.7rem;
+    font-weight: normal;
+    /* font-family: 'Bangers', cursive; */
+    font-family: 'Bubblegum Sans', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+h3{
+    color: #58287F;
+    font-family: 'McLaren', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+a{
+    color: #58287F;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 4%;
+    background-color:azure;
+}
+.pro{
+    text-decoration: underline;
+}
+.axe_photo{
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    width: 12%;
+}
+.knife_photo{
+    position: absolute;
+    top: 23.5%;
+    right: 32%;
+    /* right: 3em; */
+    /* left: auto; */
+    width: 8%;
+}
+.main_photo{
+    /* border-radius: 50%; */
+    /* position: relative;
+    top: 200px; */
+    width: 40%;
+}
+
+/* -------------------------MIDDLE CONTAINER-------------------------- */
+.middle-container{
+    margin:4rem 0 ;
+    /* background-color: rgb(242, 250, 250); */
+}
+/* .profile_pic{
+    
+} */
+
+
+::selection{
+    background-color: #443C68;
+    color: white;
+}
+.skill-row{
+    /* for centering */
+    /* top and bottom are 6.25 and right and left are auto to center */
+    margin: 6.25rem auto;
+    
+    text-align: left;
+    line-height: 2;
+    width: 50%;
+}
+.fishing-img{
+    /* padding-right: 1.875rem; */
+    margin-right: 1.875rem;
+    float: left;
+    width: 27.5%; 
+}
+.waking-gif{
+    margin-left: 1.875rem;
+    float: right;
+    width: 27.5%; 
+}
+.profile{
+    line-height: 0.5;
+}
+.welcome{
+    color: #40514E;
+    width: 40%;
+    margin: auto;
+}
+.horizontal_rules{
+    border-style :dotted none none none;
+    border-width: 0.4rem;
+    height: 0px;
+    width: 8%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    color: #a795b6;
+    
+}
+/* 
+.skill_1_description{
+    clear: left;
+}
+.skill_2_description{
+    clear: right;
+}
+*/
+
+.contact-me{
+    line-height: 2.5;
+    margin-bottom: 2rem;
+}
+.get_in_touch{
+    line-height: 0.8;
+    padding :0;
+    margin-bottom: 0.2rem;
+}
+/* ---------------------------------------------------------------------------------- */
+.bottom-container{
+    padding: 1.5rem;
+    background-color:azure;
+    line-height: 2;
+
+}
+.copyright{
+    color: #40514E;
+    font-size: 0.75rem;
+    padding: 1.5 0;
+}
+.internet{
+    color: #40514E;
+    text-decoration: none;
+}
+.footer-link{    
+    font-family: 'McLaren', cursive;
+    text-decoration: none;
+    margin: 1.2rem;
+}
+.footer-link:hover{
+    padding: 0.3rem;
+    border-radius: 4%;
+    border-style: solid ;
+    border-color: #443C68;
+    background-color: aliceblue;
+    color: #443C68;
+}
+.btn{
+
+    background: #443C68;
+    background-image: -webkit-linear-gradient(top, #443C68, #58287F);
+    background-image: -moz-linear-gradient(top, #443C68, #58287F);
+    background-image: -ms-linear-gradient(top, #443C68, #58287F);
+    background-image: -o-linear-gradient(top, #443C68, #58287F);
+    background-image: linear-gradient(to bottom, #443C68, #58287F);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+
+
+    font-family: 'Mouse Memoirs', sans-serif;
+
+
+    /* background-image: linear-gradient(to bottom, #443C68, #58287F);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: aliceblue; */
+    /* font-family: Arial; */
+}
+.btn:hover {
+    border-style: solid ;
+    border-color: #443C68;
+    background-color: aliceblue;
+    color: #443C68;
+    background-image: -webkit-linear-gradient(top, #dce2f7, #f2f3f8);
+    background-image: -moz-linear-gradient(top, #dce2f7, #f2f3f8);
+    background-image: -ms-linear-gradient(top, #dce2f7, #f2f3f8);
+    background-image: -o-linear-gradient(top, #dce2f7, #f2f3f8);
+    background-image: linear-gradient(to bottom, #dce2f7, #f2f3f8);
+    text-decoration: none;
+  }
